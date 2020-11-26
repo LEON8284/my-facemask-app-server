@@ -1,7 +1,7 @@
 let products = [
   {
     id: 1,
-    imageUrl: "",
+    imageUrl: " product image URL should go here ",
     name: "Disposable Mask",
     available_quantity: 5,
     price: 10,
@@ -10,7 +10,7 @@ let products = [
   },
   {
     id: 2,
-    imageUrl: "",
+    imageUrl: "product image URL should go here",
     name: "N95 Mask",
     available_quantity: 10,
     price: 450,
@@ -19,7 +19,7 @@ let products = [
   },
   {
     id: 3,
-    imageUrl: "",
+    imageUrl: "product image URL should go here",
     name: "Mask for Kids",
     available_quantity: 10,
     price: 30,
