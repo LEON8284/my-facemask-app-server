@@ -14,4 +14,4 @@ app.get("/", (req, res) => res.send("Hello World"));
 app.get("/products", (req, res) => res.json(data.products));
 
 app.listen(port);
-console.log("api running on" + port + ":");
+console.log("api running on " + port + ":");
