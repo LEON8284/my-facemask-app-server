@@ -11,7 +11,9 @@ app.use(cors());
 
 app.get("/", (req, res) => res.send("Hello World"));
 
-app.get("/products", (req, res) => res.json(data.products));
+app.get("/products", (req, res) => res.json(data.products)); // if we visit http://localhost:4000/products we will see the products information from the data.js file
+
+app.get("/disposableMask", (req, res) => res.json(data.disposableMask)); // if we visit http://localhost:4000/disposableMask we will see the data for disposableMask from the data.js file
 
 app.listen(port);
 console.log("api running on " + port + ":");
