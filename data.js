@@ -87,7 +87,7 @@ let products = [
 /**
  * This is a the products that we will send  to our React Face Mask Disposable Mask product page
  */
-
+/**  
 let disposableMask = [
   {
     id: 1,
@@ -150,6 +150,7 @@ let disposableMask = [
       "nec ultricies. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
   },
 ];
+**/
 
 module.exports = { products: products };
-module.exports = { disposableMask: disposableMask };
+//module.exports = { disposableMask: disposableMask };
