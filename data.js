@@ -153,4 +153,3 @@ let disposableMask = [
 **/
 
 module.exports = { products: products };
-//module.exports = { disposableMask: disposableMask };
